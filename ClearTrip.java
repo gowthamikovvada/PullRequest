@@ -54,6 +54,6 @@ public class ClearTrip {
 				 List<WebElement> checkingOfAssertion = driver.findElements(By.xpath("(//div[@class='sc-aXZVg hOLUjW sc-c657435f-0 cvqcfb mb-4 c-pointer br-4 w-100p pb-3'])"));
 				 wait.until(ExpectedConditions.visibilityOfAllElements(checkingOfAssertion));
 		        Assert.assertEquals(checkingOfAssertion.size()>0, true);
-		        Reporter.log("testCase passed with Assertion");
+		        Reporter.log("testCase passed with HardAssertion");
 	}
 }
